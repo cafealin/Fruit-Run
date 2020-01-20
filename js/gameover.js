@@ -10,7 +10,7 @@ GameOver.prototype = {
 		GoBG.width = game.width;
 
 		this.quit = this.game.input.keyboard.addKey(Phaser.Keyboard.ESC);
-		this.resume = this.game.input.activePointer;
+		this.resume = this.game.Pointer.LEFT_BUTTON;
 		this.showScore();
 	},
 
