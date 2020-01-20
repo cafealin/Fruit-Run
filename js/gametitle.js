@@ -28,7 +28,7 @@ GameTitle.prototype = {
 			logo = game.add.sprite(game.world)
 
 			this.quit = this.game.input.keyboard.addKey(Phaser.Keyboard.ESC);
-			this.resume = this.game.Pointer.LEFT_BUTTON;
+			this.resume = this.game.input.touch;
 
 
 
